@@ -1,0 +1,73 @@
+.container{
+    border:1px;
+}
+.pg-header{font-size:110%;font-weight:bold; z-index:100;padding:.5% 1%; width:43.8%; min-width:550px; height:50px;
+    top:0px; text-align:center;
+  border-bottom:lightgray 1px solid; position:fixed; background-color: white;}
+.pg-header-center{width:40%;max-width:40%;margin:1% 25%;}
+.content{width:55%; min-width:550px; min-height:800px; margin:auto; padding-top:3em; border-left:lightgray 1px solid;
+  border-right:lightgray 1px solid;font-family: 'Nanum Gothic';}
+.timeline .board-empty{height:30%; text-align:center; font-weight:bold; padding:5%}
+.timeline .board{border-bottom:#D8EDE0 1px solid; margin:auto; padding:1em; cursor:pointer;}
+.timeline .board:hover{background-color:#F4F7F5}
+.timeline .board-member-name{font-weight:bold; font-size:110%; height:50px;}
+.timeline .board-member-name a:hover{text-decoration: underline;}
+.timeline .board-member-id{color:gray; font-size:90%; height:50px;}
+.timeline .board-member-image{display:inline-block;
+        background-color:white;
+        border:lightgray 1px solid;
+        border-radius:25px;
+        overflow:hidden;
+        align-items: center;
+        justify-content: center;
+        width:8%; height:0; padding-bottom:8%;
+      }
+.timeline .board-member-image img{width:100%;}
+.timeline .board-image-list{text-align:center; margin:2em auto .5em auto;}
+.timeline .board-image-list span{border:lightgray 1px solid;
+                  background-color:white;
+                  border-radius:10px;
+                  display: inline-block;
+                  overflow:hidden;
+                  align-items: center;
+                  justify-content: center;
+                  width:90%; height:0; padding-bottom:70%;}
+.timeline .board-image-list img{width:100%;}
+.timeline .board-txt{padding:3% 5%; margin:.3em auto; min-height:60px}
+.timeline .board a{text-decoration: none; color:black;}
+.timeline .board-bottom{padding:.2em 2em; margin:auto;}
+
+.like{display:none;}
+.unlike.active, .like.active{display:inline;}
+.board-icon{cursor:pointer; display:inline-block; font-size:110%;font-weight:bold; width:15%;margin:1%;}
+.board-regdate{color:#626262; font-size:90%; margin:auto 5%; min-width:30%;}
+
+/*로그인, 회원가입 폼 부분*/
+.content-login{width:70%; min-height: 100vh; margin:auto; text-align: center; padding:1em;}
+.content-login h5{width:17%;margin:0.1em; display:inline-block}
+.content-login input{width:65%; padding:1em; margin:1em; border:lightgray 1px solid; border-radius: 5px;}
+.content-login button{width:20%; font-weight:bold; padding:1em; margin:1em; background-color:#a863e0; color:white;border:#a863e0 1px solid; border-radius: 5px;}
+.content-login p a{color:#b175e3}
+
+/*프로필*/
+.profile{ padding:1em; height:180px;border-bottom: lightgray 1px solid;}
+.profile-member-image{display: inline-block;width:10%; height:0; padding-bottom:10%;
+                      overflow:hidden;align-items: center; border:lightgray 1px solid;
+                      justify-content: center;border-radius:30px;vertical-align: middle}
+.profile-member-image img{width:100%;}
+.profile-member-name{display:inline-block;width:35%;margin:.5em;vertical-align: middle}
+.profile-member-notice{display:inline-block;width:50%;text-align: center;vertical-align: middle}
+.profile-member-notice div{display: inline-block;width:30%; cursor:pointer;}
+.profile-member-introduce{margin:1em auto; padding:.5em 0;}
+.follow-btn, .follow-btn.active {border-radius:10px; width:13%; display:inline-block; font-weight:bold; font-size:80%;text-align:center; cursor:pointer; padding:.5% .5%;}
+.follow-btn {border:#9E6BD1 1px solid}
+.follow-btn.active{background-color:#9E6BD1;color:white;}
+.profile-tab{width:100%;}
+.profile-tab ul{text-align:center; margin:auto; padding:0.5em 0px; border-bottom:lightgray 1px solid;}
+.profile-tab ul li{display: inline-block; width:20%; font-weight:bold; color:#419861; font-size:120%;
+                  padding:0.5em; border-right: lightgray 1px solid;cursor:pointer;}
+.profile-tab ul li:last-child{border:none;}
+.tab-link a{text-decoration:none;color:#e8d6f1;}
+.tab-link.current a{color:#9E6BD1;}
+
+nav{width:20%; display:inline-block; position:fixed; left:10%; vertical-align: top}
